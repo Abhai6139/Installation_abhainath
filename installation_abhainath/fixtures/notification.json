@@ -1,0 +1,43 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": "doc.status==\"Scheduled\"",
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Installation Request",
+  "enabled": 1,
+  "event": "Value Change",
+  "is_standard": 0,
+  "message": "<p>Hi {{doc.assigned_technician}}</p><br>\n\n<p>You are assigned as the technician for customer {{doc.customer}}.</p> <br>\n<p>Complete the installation on or before {{doc.installation_date}} </p>\n",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2025-07-04 15:39:46.807270",
+  "module": null,
+  "name": "Installation Notification",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Installation Notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "assigned_technician",
+    "receiver_by_role": null
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 1,
+  "sender": "Supportt",
+  "sender_email": "pkd20bec649@gecskp.ac.in",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "Work Alert!!!",
+  "value_changed": "status"
+ }
+]

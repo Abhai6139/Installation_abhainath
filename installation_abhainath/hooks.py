@@ -246,4 +246,5 @@ fixtures = [
     {"dt": "Workflow", "filters": [["document_type", "=", "Installation Request"]]},
     {"dt": "Workspace", "filters": [["title", "=", "Service Operations"]]},
     {"dt": "Role", "filters": [["role_name", "=", "Installation Request Approver"]]},
+    {"dt": "Notification", "filters": [["document_type", "=", "Installation Request"]]},
 ]

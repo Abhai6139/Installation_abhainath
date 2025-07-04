@@ -242,3 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Workflow", "filters": [["document_type", "=", "Installation Request"]]},
+    {"dt": "Workspace", "filters": [["title", "=", "Service Operations"]]},
+    {"dt": "Role", "filters": [["role_name", "=", "Installation Request Approver"]]},
+]
